@@ -18,3 +18,13 @@ override_dh_auto_install:
 		python$$pyvers setup.py install --install-layout=deb \
 			--root $(CURDIR)/debian/python3-colander; \
 	done
+
+override_dh_clean:
+	dh_clean -O--buildsystem=python_distutils
+	rm -rf colander.egg-info
+
+ifeq (,$(findstring nocheck, $(DEB_BUILD_OPTIONS)))
+override_dh_auto_test:
+	python setup.py nosetests
+	python3 setup.py nosetests
+endif

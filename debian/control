@@ -8,8 +8,10 @@ Uploaders: Julien Danjou <acid@debian.org>,
 Build-Depends: debhelper (>= 9),
                openstack-pkg-tools,
                python-all (>= 2.6.6-3~),
+               python-nose,
                python-setuptools,
                python3-all,
+               python3-nose,
                python3-setuptools
 Standards-Version: 3.9.4
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-colander.git
