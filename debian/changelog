@@ -2,6 +2,7 @@ python-colander (1.0b1-3) unstable; urgency=medium
 
   * Added missing python-translationstring and python3-translationstring
     missing build-dependency (Closes: #735819).
+  * Standards-Version: is now 3.9.5.
 
  -- Thomas Goirand <zigo@debian.org>  Sat, 18 Jan 2014 06:18:21 +0000
 

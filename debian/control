@@ -15,7 +15,7 @@ Build-Depends: debhelper (>= 9),
                python3-nose,
                python3-setuptools,
                python3-translationstring
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-colander.git
 Vcs-Git: git://anonscm.debian.org/openstack/python-colander.git
 Homepage: http://docs.pylonsproject.org/projects/colander/en/latest/
