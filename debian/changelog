@@ -1,3 +1,10 @@
+python-colander (1.0b1-3) unstable; urgency=medium
+
+  * Added missing python-translationstring and python3-translationstring
+    missing build-dependency (Closes: #735819).
+
+ -- Thomas Goirand <zigo@debian.org>  Sat, 18 Jan 2014 06:18:21 +0000
+
 python-colander (1.0b1-2) unstable; urgency=low
 
   * Wrote iso8601.py license in debian/copyright.
